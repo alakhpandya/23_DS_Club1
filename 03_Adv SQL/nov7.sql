@@ -79,7 +79,3 @@ from movies;
 select upper(title), lower(studio)
 from movies;
 */
-
-/*
-Print the titles of movies in a way that first character of title of every movie is capitalized and every other character in lower case.
-*/
