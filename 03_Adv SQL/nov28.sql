@@ -36,8 +36,10 @@ select * from movie_actor;
 */
 
 -- 2. Print actor_id, actor name and movies names that actor has played a role in. Sort your result in the ascending order of actor_id.
+/*
 select a.actor_id, a.name, m.title
 from actors a
 join movie_actor ma on a.actor_id = ma.actor_id
 join movies m on ma.movie_id = m.movie_id
 order by a.actor_id;
+*/
