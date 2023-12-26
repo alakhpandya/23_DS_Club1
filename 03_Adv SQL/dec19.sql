@@ -85,6 +85,7 @@ insert into Seller (seller_id, seller_name) values ('3', 'Frank');
 */
 
 /*
+use classwork;
 select seller_name 
 from Seller
 where seller_id not in
